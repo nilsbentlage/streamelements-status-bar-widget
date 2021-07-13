@@ -1,0 +1,14 @@
+#meine-status-bar {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    hsl(207, 100%, 30%),
+    hsl(207, 100%, 50%)
+  );
+  background-size: 0%;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+}
