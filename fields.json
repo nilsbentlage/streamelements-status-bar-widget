@@ -1,12 +1,27 @@
 {
     "targetValue": {
-        "type": "number",
-        "label": "What's the count you need?",
-        "value": 20
-    },
+      "type": "number",
+      "label": "What's the count you need?",
+      "value": 20
+    },  
     "startAt": {
-        "type": "number",
-        "label": "Where are you starting?",
-        "value": 0
+      "type": "number",
+      "label": "Where are you starting at?",
+      "value": 0
+    },
+    "backgroundColor": {
+      "type": "colorpicker",
+      "label": "Background Color",
+      "value": "hsla(0,0%,80%,50%)"
+    },
+    "colorLeft": {
+      "type": "colorpicker",
+      "label": "Left Color",
+      "value": "hsl(207, 100%, 30%)"
+    },
+    "colorRight": {
+      "type": "colorpicker",
+      "label": "Right Color",
+      "value": "hsl(207, 100%, 50%)"
     }
-}
+  }
